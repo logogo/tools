@@ -18,7 +18,7 @@ function saveImg(el, cb) {
     if (!el.nodeName) {
         dom = el.el;
     }
-    const box = window.getComputedStyle(dom);
+    const box = window.getComputedStyle(dom);  // 获取到的节点都是计算后的值
     // DOM 节点计算后宽高
     const width = parseValue(box.width);
     const height = parseValue(box.height);
