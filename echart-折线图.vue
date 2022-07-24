@@ -1,6 +1,6 @@
 <template>
     <div class="echart-img">
-        <div :id="type" :style="{width: '100%', height: height+'px'}"></div>    // 宽高可以自适应
+        <div :id="type" :style="{width: '100%', height: height+'px'}"></div>    // 宽可以自适应
         <a :class="type" :download="type"  href="#" style="position:absolute;bottom: 10%;right:50px;">
           <img :src="down" alt="">
           <span>DownLoad</span>
